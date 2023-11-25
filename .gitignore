@@ -1,4 +1,38 @@
-\pandas_learning\.ipynb_checkpoints
-\numpy_learning\.ipynb_checkpoints
-\numpy_learning\.vscode
-\matplotlib_learning\.ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore .ipynb_checkpoints in all directories
+**/.ipynb_checkpoints/
+
+# Editor/IDE generated files
+**/.vscode/
+**/.idea/
+**/*.iml
+
+# Temporary files
+**/*~
+**/*.swp
+**/*.swo
+
+# Cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# System or tool-generated files
+**/.DS_Store
+**/Thumbs.db
+
+# Runtime configuration
+**/.env
+
+# Keys or sensitive information
+**/*.key
+**/*.pem
+**/*.p12
+**/*.env
+
+# Generated directories
+**/node_modules/
+**/build/
+**/dist/
+
